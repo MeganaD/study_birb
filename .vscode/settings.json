@@ -2,6 +2,7 @@
     "files.exclude": {
         "**/.idea": true,
         "**/android": true,
-        "**/ios": true
+        "**/ios": true,
+        "app/": true
     }
 }
