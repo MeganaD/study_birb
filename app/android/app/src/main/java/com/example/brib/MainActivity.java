@@ -1,4 +1,4 @@
-package com.example.brib;
+package com.example.birb;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;
