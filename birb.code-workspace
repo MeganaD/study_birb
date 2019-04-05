@@ -1,10 +1,12 @@
 {
 	"folders": [
 		{
-			"path": "."
+			"name": "app",
+			"path": "app"
 		},
 		{
-			"path": "app"
+			"name": "study_birb",
+			"path": "."
 		}
 	],
 	"settings": {}
