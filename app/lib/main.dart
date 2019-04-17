@@ -1,11 +1,14 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:google_sign_in/google_sign_in.dart';
 
 import 'models/post.dart';
 import 'models/post_mock.dart';
 //import 'no_content.dart';
 import 'posts_list.dart';
 import 'sign_in_fab.dart';
+import 'services/auth.dart';
 
 void main() {
   runApp(MyApp());
@@ -56,7 +59,12 @@ class _MyHomePageState extends State<MyHomePage> {
         elevation: 0.0,
       ),
       body: PostsList(_loadPosts(context)),
-      floatingActionButton: const SignInFab(),
+      floatingActionButton: SignInFab(
+        auth: Auth(
+          firebaseAuth: FirebaseAuth.instance,
+          googleSignIn: GoogleSignIn(),
+        ),
+      ),
     );
   }
 
