@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>843230571242-f21q73asd18vkt7sv6j8dqjngnfs0pe8.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.843230571242-f21q73asd18vkt7sv6j8dqjngnfs0pe8</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>843230571242-34klbpush557683ouhl4univooanmoln.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDT4rAS4cP1L_pRPYsAMtrkL0D9JfRQwNM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>843230571242</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>app.birb</string>
+	<key>PROJECT_ID</key>
+	<string>birb-app-dev-7191a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>birb-app-dev-7191a.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:843230571242:ios:ca91ea844a7389aa</string>
+	<key>DATABASE_URL</key>
+	<string>https://birb-app-dev-7191a.firebaseio.com</string>
+</dict>
+</plist>
