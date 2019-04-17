@@ -5,6 +5,7 @@ import 'models/post.dart';
 import 'models/post_mock.dart';
 //import 'no_content.dart';
 import 'posts_list.dart';
+import 'sign_in_fab.dart';
 
 void main() {
   runApp(MyApp());
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         brightness: Brightness.light,
         primaryColor: Colors.white,
-        scaffoldBackgroundColor: Colors.white,
+        accentColor: Colors.white,
       ),
       home: const MyHomePage(title: 'Birb'),
     );
@@ -55,6 +56,7 @@ class _MyHomePageState extends State<MyHomePage> {
         elevation: 0.0,
       ),
       body: PostsList(_loadPosts(context)),
+      floatingActionButton: const SignInFab(),
     );
   }
 
