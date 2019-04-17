@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "843230571242",
+    "firebase_url": "https://birb-app-dev-7191a.firebaseio.com",
+    "project_id": "birb-app-dev-7191a",
+    "storage_bucket": "birb-app-dev-7191a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843230571242:android:ca91ea844a7389aa",
+        "android_client_info": {
+          "package_name": "app.birb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "843230571242-34klbpush557683ouhl4univooanmoln.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.birb",
+            "certificate_hash": "84b7bfadeff7cea076cdadda08a46f2c7c609e39"
+          }
+        },
+        {
+          "client_id": "843230571242-rab5897seea6kq1qgjr599q4p662a29m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcspMhNqzzcUtJFu5oZiBEcPGEsEivRx8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "843230571242-rab5897seea6kq1qgjr599q4p662a29m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
